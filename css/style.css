@@ -1,0 +1,37 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h3 {
+  color: green;
+  padding-left: 145px;
+}
+
+h4 {
+  color: purple;
+  padding-left: 145px;
+}
+
+.notes {
+  color: dark-grey;
+  padding-left: 145px;
+}
+
+.firstset {
+  border: 3px solid orange;
+  background-color: rgb(255, 230, 193);
+  margin-bottom: 2em;
+}
+
+.secondset {
+  border: 3px solid green;
+  background-color: rgb(188, 253, 157);
+  margin-bottom: 2em;
+}
+
+.thirdset {
+  border: 3px solid red;
+  background-color: rgb(236, 211, 210);
+  margin-bottom: 2em;
+}

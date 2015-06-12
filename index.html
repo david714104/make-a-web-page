@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  David</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Class Project</title>
+</head>
+
+<body>
+
+  <div class="firstset">
+    <h1>The Basics of the Web</h1>
+    <div class="notes">
+      HTML - HyperText Markup Language
+      <br> - glues everything together in the document
+      <br>
+      <br> Hyperlinks - make web connected
+      <br>
+    </div>
+
+    <h3>Major Pieces of the Web</h3>
+    <div class="notes">
+      - Your Computer Browser
+      <br> - The Internet
+      <br> - HTTP - language used to send HTML documents
+      <br> - Servers
+      <br>
+    </div>
+
+    <h4>HTML consists of</h4>
+    <div class="notes">
+      - text content
+      <br> - markup
+      <br> - references to other documents
+      <br> - links to other pages
+      <br>
+    </div>
+
+    <h4>HTML Markup</h4>
+    <div class="notes">
+      -
+      < b><b>BOLD</b>
+        < /b>
+          <br> -
+          < em><em>italics</em>
+            < /em>
+    </div>
+
+    <h4>HTML Attributes</h4>
+    <div class="notes">
+      -
+      < tag ATTR="value"> contents
+        < /tag>
+          <br> tags can have multiple attributes
+          <br>
+          <br> - Anchor
+          < a> is used to make links
+            <br>
+            < a href - "www.reddit.com"> derp
+              < /a>
+    </div>
+
+    <h3>Images</h3>
+    <div class="notes">
+      < img> is used to insert images
+        <br>
+        < img SRC="URL" alt="text">
+          <br> alt inserts text in place of image in case image fails to appear
+          <br>
+          < img> doesn't have a closing tag
+    </div>
+
+    <h3>White space</h3>
+    <div class="notes">
+      Multiple spaces or enters are reduced to one space
+      <br> - Inline elements influence a line
+      <br> - Container elements make an invisble box with height and width
+      <br> and do nothing but contain stuff inside themselves.
+      <br>
+      < p> is a container element, while
+        < br> is an inline element
+          <br>
+    </div>
+
+    <h3>HTML Documents</h3>
+    <div class="notes">
+      < !DOCTYPE HTML> - doctype in html 5
+        <br>
+        < html> document
+          < /html>
+            <br>
+            < head> may contain metadata, javascript, css,
+              <br> or
+              < title> text
+                < /title>
+                  < /head>
+                    <br>
+                    < body> content of document
+                      < /body>
+                        <br> CSS is a styling language
+                        <br>
+    </div>
+
+    <h3> Summary </h3>
+    <div class="notes">
+      <p>A web page is a text document written in HTML. Web Browsers
+        <br> read these documents, then interpret and display them.</p>
+      <p>An HTML element refers to everything within a set of opening and closing tags</p>
+      <p>An attribute is a property of an HTML element</p>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <div class="secondset">
+    <h1>Creating a Structured Document</h1>
+
+    <h3>Tree-Like Structure</h3>
+    <div class="notes">
+      HTML is set up in tree-like structure
+      <br>with each part having sub-parts that branch
+      <br> off to the final elements.
+      <br> - HTML and CSS are languages
+      <br> - HTML controls the structure of the page
+      <br> tags define an element in the tree
+      <br> - CSS controls the style by using the HTML language
+      <br> - DOM = "Document Object Model" = treelike structure
+      <br>
+    </div>
+
+    <h3>Boxing a Design</h3>
+    <div class="notes">
+      - Everything on a webpage is actually a box.
+      <br> - There is a grid to align the boxes
+      <br> - To boxify a design is to subdivide the document
+      <br> into sections for elements by using boxes
+      <br>
+      < div> define boxes
+        < /div>
+          <br> - Use class to give boxes names
+          <br>
+          < div class="box 1"> text
+            < /div>
+              <br>
+              <br>
+    </div>
+  </div>
+
+  <div class="thirdset">
+    <h1>Adding CSS Style and HTML Structure</h1>
+
+    <div class="notes">
+      < style>style
+        < /style> can be used in html
+          <br>
+          < link> is used to reference style code in CSS
+    </div>
+
+    <h3>Cascading Style Sheets (CSS)</h3>
+
+    <div class="notes">
+      Using CSS helps avoid repetition by applying style
+      <br>to similar elements. This saves the programmer
+      <br> extra work and their employer money.
+      <br>
+      <br> Inheritance - properties are applied not only to elements,
+      <br> but also it's decendents on the document tree.
+      <br>
+      <br> Text-related properties are inherited,
+      <br> while box-related properties are not inherited.
+      <br>
+      <br> When more than one rule applies, the more specific
+      <br> rule takes presidence.
+    </div>
+
+    <h4>Selectors</h4>
+
+    <div class="notes">
+      A selector defines elements that a style will apply to.
+      <br>
+      <br> Class selectors add style only to certains elements.
+      <br>
+      <br> declaration = property:value;
+    </div>
+
+    <h4>Comments</h4>
+
+    <div class="notes">
+      html comments are placed in
+      < ! text>
+        <br> CSS comments are placed in /*text*/
+    </div>
+
+    <h3>The Box Model</h3>
+
+    <div class="notes">
+      A box consists of four parts each inside the other.
+      <br>The margin is on the outside and transparent.
+      <br>The border surrounds the padding with the
+      <br> content in the middle that provides the
+      <br>protective space for the image or text.
+      <br>
+      <br> When using *{box-sizing:border-box;}, browser
+      <br>specific prefixes may be needed for older browsers.
+      <br>
+      <br> Browsers uses a default style for elements in the
+      <br> absense of a coded style
+    </div>
+
+    <h3>Code, Test, Refine</h3>
+
+    <div class="notes">
+      While working from the biggest to the smallest,
+      <br>boxify, tag, size and position boxes, and write html.
+      <br>Repeat the process until the webpage
+      <br> matches the design mockup.
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <body>
+
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
